@@ -13,7 +13,8 @@ const IndexPage = ({ location: { origin } }) => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <a href={`${origin}/somewhere`}>Go Somewhere</a>
+    <a href="https://eloquent-bassi-2f286c.netlify.com/somewhere">Go Somewhere</a>
+    <a href={`${origin}/somewhere`}>Go Somewhere (Undefined)</a>
   </Layout>
 )
 
